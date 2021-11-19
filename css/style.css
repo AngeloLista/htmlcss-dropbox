@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -37,29 +37,6 @@ img {
     text-align: right;
 }
 
-/* Header */
-#logo {
-    display: inline-block;
-}
-
-header ul {
-    display: inline-block;
-}
-
-header ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 35px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-header ul li a:hover {
-    text-decoration: underline;
-}
 
 
 .btn {
@@ -78,5 +55,39 @@ header ul li a:hover {
 
 
 .btn.btn-tiny {
-    padding: 10px 15px;
+    padding: 5px 15px;
+}
+
+/* Header */
+.topbar {
+    height: 75px;
+    padding: 0 25px;
+    line-height: 75px;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header ul {
+    display: inline-block;
+    margin: 0 50px;
+
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
 }
