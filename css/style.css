@@ -1,0 +1,82 @@
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+/* Utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Header */
+#logo {
+    display: inline-block;
+}
+
+header ul {
+    display: inline-block;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    text-decoration: none;
+}
+
+.btn.btn-light {
+    background-color: white;
+    color: #23272a;
+}
+
+.btn.btn-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
+
+.btn.btn-tiny {
+    padding: 10px 15px;
+}
