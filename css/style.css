@@ -36,7 +36,7 @@ img {
 
 
 .w-30 {
-    width: 30%;
+    width: calc(100% / 3 - 10px);
 }
 
 .w-35 {
@@ -204,6 +204,7 @@ header ul li a:hover {
 
 .section-title {
     font-size: 35px;
+    margin-top: 190px;
     margin-bottom: 50px;
 }
 
