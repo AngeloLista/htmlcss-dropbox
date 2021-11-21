@@ -36,7 +36,7 @@ img {
 
 
 .w-30calc {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 34px);
 }
 
 .w-30 {
@@ -47,8 +47,8 @@ img {
     width: 35%;
 }
 
-.w-33 {
-    width: calc(100% / 3 - 50px);
+.w-40 {
+    width: 40%;
 }
 
 .w-50 {
@@ -75,8 +75,12 @@ img {
     padding: 70px;
 }
 
-.m-right {
-    margin-right: 15px;
+.m-right-50 {
+    margin-right: 50px;
+}
+
+.m-bot-30 {
+    margin-bottom: 30px;
 }
 
 .text-center {
@@ -101,6 +105,7 @@ img {
 .btn.btn-light {
     background-color: white;
     color: #23272a;
+    border: 1px solid black;
 }
 
 .btn.btn-blue {
@@ -290,4 +295,39 @@ header ul li a:hover {
     height: 0.3px;
     border: 1px;
     background-color: gray;
+}
+
+/* Partner Section */
+
+#partner {
+    margin: 60px 0;
+}
+
+#partner h3 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+/* Features Section */
+#features h2 {
+    font-weight: 900;
+    font-size: 39px;
+    margin-bottom: 75px;
+}
+
+#features .row {
+    margin-bottom: 75px;
+}
+
+#features h3 {
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* Clients Section */
+#clients .client-logo {
+    height: 50%;
+    background-color: red;
 }
