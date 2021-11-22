@@ -142,7 +142,7 @@ img {
 }
 
 
-/* client logo colors */
+/* Colors */
 .light-green {
     background-color: #a2d39b;
 }
@@ -170,6 +170,9 @@ img {
 .designit-gray {
     background-color: #f5f5f5;
 }
+.business-lightblue {
+    background-color: #b4d0e7;
+}
 
 
 
@@ -186,6 +189,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #logo {
@@ -428,4 +432,15 @@ header ul li a:hover {
 
 #clients p {
     margin-bottom: 35px;
+}
+
+/* Bring Dropbox into your Business section */
+#bring-to-business {
+    padding: 100px 0;
+}
+
+#bring-to-business h2{
+    font-weight: 900;
+    font-size: 35px;
+    color: #61082b;
 }
