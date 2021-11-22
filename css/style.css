@@ -337,6 +337,10 @@ header ul li a:hover {
     float: left;
     width: 7%;
 }
+
+.blue-icon {
+    filter: invert(26%) sepia(63%) saturate(6158%) hue-rotate(214deg) brightness(103%) contrast(106%);
+}
 .list-text {
     float: left;
     width: 93%;
