@@ -414,6 +414,11 @@ header ul li a:hover {
     width: 50%;
     height: 100%;
     position: relative;
+    transition: 0.3s;
+}
+
+#clients .client-logo-box:hover {
+    box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 #clients hr {
@@ -425,6 +430,7 @@ header ul li a:hover {
 }
 
 #clients .client-logo {
+    filter: invert(1);
     width: 60%;
     position: absolute;
     top: 50%;
