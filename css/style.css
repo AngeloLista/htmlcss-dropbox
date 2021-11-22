@@ -220,6 +220,7 @@ header ul li {
 }
 
 header ul li a {
+    display: block;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -227,7 +228,6 @@ header ul li a {
 }
 
 header ul li a:hover {
-    text-decoration: underline;
 }
 
 /* Main */
@@ -333,6 +333,15 @@ header ul li a:hover {
     margin-bottom: 50px;
 }
 
+.list-icon {
+    float: left;
+    width: 7%;
+}
+.list-text {
+    float: left;
+    width: 93%;
+}
+
 .well-content-section h3 {
     font-weight: 800;
     font-size: 19px;
@@ -416,6 +425,7 @@ header ul li a:hover {
 }
 
 #clients .client-logo-box {
+    cursor: pointer;
     width: 50%;
     height: 100%;
     position: relative;
@@ -534,6 +544,7 @@ footer hr {
 }
 
 footer #language-selector {
+    cursor: pointer;
     color: gray;
     font-size: 13px;
 }
