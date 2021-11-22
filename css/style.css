@@ -188,6 +188,8 @@ img {
 
 /* topbar */
 .topbar {
+    font-weight: 600;
+    font-size: 15px;
     background-color: white;
     box-shadow: 0 1px 2px #d0d0d0;
     width: 100%;
@@ -220,7 +222,8 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 header ul li a:hover {
