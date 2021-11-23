@@ -274,6 +274,33 @@ header ul li a:hover {
 
 
 /* Main */
+/* radio */
+#radio-line {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.radio-full {
+    margin-right: 15px;
+}
+
+.fake-radio {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.fake-radio.selected {
+    border: 3.5px solid blue;
+}
+
+.fake-radio.not-selected {
+    border: 1.5px solid darkgray;
+}
+
+
 .well-header {
     font-size: 15px;
     font-weight: 700;
