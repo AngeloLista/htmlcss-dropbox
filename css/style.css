@@ -222,11 +222,13 @@ header .topbar ul li:hover {
     box-shadow: inset 0px -3px 0 0px black;
 }
 
+
 header .topbar ul li:last-child {
     margin-right: 0px;
 }
 
 #begin-btn {
+    margin-left: 35px;
     display: inline;
 }
 
@@ -238,8 +240,6 @@ header ul li a {
     font-weight: 600;
 }
 
-header ul li a:hover {
-}
 
 /* Main */
 
