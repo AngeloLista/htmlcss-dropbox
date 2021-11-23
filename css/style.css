@@ -218,6 +218,14 @@ header ul li {
     margin-right: 35px;
 }
 
+header .topbar ul li:hover {
+    box-shadow: inset 0px -3px 0 0px black;
+}
+
+header .topbar ul li:last-child {
+    margin-right: 0px;
+}
+
 #begin-btn {
     display: inline;
 }
