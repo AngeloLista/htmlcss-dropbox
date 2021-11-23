@@ -632,3 +632,24 @@ footer #language-selector {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
+/* Dropdown faq */
+.dropdown-faq {
+    position: relative;
+    display: block;
+}
+.dropdown-content-faq {
+    display: none;
+
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 0px;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.dropdown-faq:hover .dropdown-content-faq {
+    display: block;
+}
